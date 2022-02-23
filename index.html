@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic of API & JSON</title>
+    <link rel="shortcut icon" href="api.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="main-title">
+            <img src="api.png" width="10%">
+            <h1>I'm learning how to use <span class="highlighted-text">API & JSON</span></h1>            
+        </div>
+        <button onclick="getData()">Test Button</button>
+        <button onclick="google()">GoTo Google</button>
+        <button onclick="refresh()">Refresh Page</button>
+        <button onclick="loadUsers()">Load Users</button>
+        <button onclick="loadPhotos()">Load Photos</button>
+        <button onclick="loadPost()">Load Post</button>
+        <button onclick="kanyeQuote()">Kanye Quote</button>
+        <button onclick="randomUsers()">Random Users</button>
+    </header>
+
+    <div class="content" id="content">
+        <ul id="list-item"></ul>             
+    </div>
+    <div class="container" id="table-section">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Title</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
